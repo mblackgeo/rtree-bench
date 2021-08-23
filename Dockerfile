@@ -4,4 +4,4 @@ RUN conda install -c conda-forge gdal proj libspatialindex pygeos pandas fiona s
 RUN pip install --no-cache-dir pytest pytest-benchmark
 
 COPY bench.py /bench.py
-CMD python3 bench.py
+CMD pytest bench.py
