@@ -1,5 +1,5 @@
 # rtree-bench
-Benchmarking rtree vs pygeos spatial indexing using Geopandas. Experimental PyGEOS support was added in Geopandas 0.9.0 and underneath uses a pygeos' STRtree (sort-tile-recursive rtree) which can speed up the querying process of an rtree compared to using the python `rtree` support (which wraps `libspatialindex`).
+Benchmarking rtree vs pygeos spatial indexing using Geopandas. Experimental PyGEOS support was added in Geopandas 0.9.0 and underneath uses a pygeos' STRtree (sort-tile-recursive rtree) which can speed up the querying process of an rtree compared to using the python `rtree` (which wraps `libspatialindex`).
 
 To run:
 
